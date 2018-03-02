@@ -1,7 +1,7 @@
-# [Site Réformons le droit d'auteur](http://www.reformonsledroitdauteur.eu) - [Parti Pirate](http://partipirate.org)
+# [Site sur le bulletin unique](http://www.bulletinunique.org)
 
-Ce site permets de faire la promotion du rapport Reda sur la réforme du droit d'auteur en France où il est particulièrement attaqué aux noms d'intérêts industriels.
-L'objectif est d'informer les citoyens sur les avancées du rapport en faveur de la création et des consomateurs de biens culturels. 
+Ce site permets de faire la promotion du projet bulletin unique.
+L'objectif est d'informer les citoyens sur le projet. 
 
 
 
