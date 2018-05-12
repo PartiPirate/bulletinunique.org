@@ -54,9 +54,13 @@
 
 <body id="page-top" class="index">
 
+        <div class="container-fluid">
+
+        </div>
+
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+        <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -65,7 +69,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Bulletin Unique</a>
+            <div class="row hidden-xs hidden-sm hidden-md">
+				<div class="fixed col-xs-2"><a href="#page-top"><img class="img-responsive" src="img/LogoTag.png" ALT="Logo" /></a></div>
+				<div class="col-xs-10"></div>
+			</div>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -95,19 +102,25 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-
     <!-- Header -->
     <header>
-        <div class="container">
-	    <h1>La proposition Bulletin Unique</h1>
-            <div class="intro-text">
-                <div class="intro-lead-in">Bulletin Unique : Un suffrage responsable</div>
-                <h1 class="intro-heading">Bulletin Unique : Un suffrage responsable</h1>
-                <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">La Proposition</h2>
-					<p style="font-size: 170%">A chaque élection, en France, les candidats et les partis politiques financent entièrement l’impression et le transport de leurs bulletins de vote. L’État rembourse ensuite ces frais aux candidats ayant obtenus plus de 5% des suffrages exprimés. Ce système est très coûteux, en plus d’avoir un impact écologique important, et défavorise les petits candidats et partis pour lesquels les coûts sont un frein. En Allemagne, aux États-Unis ou encore en Belgique, les citoyens votent en cochant le candidat de leur choix sur un bulletin unique, sur lequel apparaît l’ensemble des candidats ou des listes candidates.</p>
-                </div>
+		<div class="container-fluid">
+		<h1>La proposition Bulletin Unique</h1>
+			<div class="intro-text">
+				<h1 class="intro-heading">Bulletin Unique : Un suffrage responsable</h1>
+				<div class="row">
+					<div class="col-lg-2"></div>
+					<div class="col-lg-10 text-left">
+						<h2 class="section-heading">C'est quoi un<br />BULLETIN UNIQUE ?</h2>
+						<p style="font-size: 150%">C’est une feuille de papier où figurent les noms de la totalité des candidat.e.s à une élection (et potentiellement les logos du parti représenté), les symboles des partis politiques et des candidats indépendants en compétition ainsi que des cases destinées à être cochées par l’électeur pour exprimer le vote.</p>
+					</div>
+			</div>
+			<div class="row">
+					<div class="col-lg-2"></div>
+					<div class="col-lg-10 text-left">
+						<h2 class="section-heading">Dans Quel contexte utiliser le<br />BULLETIN UNIQUE ?</h2>
+						<p style="font-size: 150%">A chaque élection, en France, les candidats et les partis politiques financent entièrement l’impression et le transport de leurs bulletins de vote. L’État rembourse ensuite ces frais aux candidats ayant obtenus plus de 5% des suffrages exprimés. Ce système est très coûteux, en plus d’avoir un impact écologique important, et défavorise les petits candidats et partis pour lesquels les coûts sont un frein. En Allemagne, aux États-Unis ou encore en Belgique, les citoyens votent en cochant le candidat de leur choix sur un bulletin unique, sur lequel apparaît l’ensemble des candidats ou des listes candidates.</p>
+					</div>
             </div>
                 <a href="#Reforme" class="page-scroll btn btn-xl">En savoir plus ?</a>
             </div>
@@ -115,10 +128,10 @@
     </header>
     <!-- Reforme Section -->
     <section id="Reforme">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-12 text-center">
-					<img src="img/BulletinUnique_Logo.png" alt="Logo" />
+				<div class="col-lg-2"></div>
+                <div class="col-lg-10 text-left">
                     <h2 class="section-heading">La Réforme</h2>
                     <p>L'impression des bulletins de vote pour participer aux élections françaises pose problème. 99% des bulletins imprimés par millions sont victimes d'un gâchis financier, démocratique et écologique.</p>
 					<p>Les frais afférents, qui font partie des comptes de campagne, sont ensuite partiellement pris en charge par l’État, au terme d'un lourd mécanisme comptable. Le remplacement de cette impression individuelle par une gestion groupée allégerait considérablement l'empreinte écologique des élections françaises, en plus d'en améliorer l'empreinte démocratique.</p>
@@ -131,13 +144,14 @@
     <!-- Etape Arguments -->
         <section id="Argumentaire" style="width:97%; margin-left: auto; margin-right: auto;">
             <div class="row">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Les arguments</h3>
+				<div class="col-lg-2"></div>
+                <div class="col-lg-10">
+                    <h2 class="section-heading">Pourquoi passer au BULLETIN UNIQUE ?</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
+				<div class="col-lg-2"></div>
+                <div class="col-md-4 col-sm-2 portfolio-item">
                     <a href="#reduc_couts" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -150,7 +164,7 @@
                         <h4>Pour des élections moins chères</h4>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-4 col-sm-4 portfolio-item">
                     <a href="#impact_ecolo" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -163,6 +177,9 @@
                         <h4>Pour des élections plus respectueuses de l'environnement</h4>
                     </div>
                 </div>
+			</div>
+			<div class="row">
+				<div class="col-lg-2"></div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#augment_equite" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -189,26 +206,16 @@
                         <h4>Pour une gestion simplifiée des bureaux de votes</h4>
                     </div>
                 </div>
-                <!-- <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#transp_vote" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/Urnes_Transp.jpg" class="img-responsive" alt="Transparence du vote">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Transparence du vote</h4>
-                    </div>
-                </div>-->
             </div>
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3 class="section-heading">Les contre-arguments</h3>
+			<div class="col-lg-12"></div>
+				<div class="col-lg-2"></div>
+                <div class="col-lg-10">
+                    <h2 class="section-heading">Qu’est-ce qui peut freiner le BULLETIN UNIQUE ?</h2>
                 </div>
             </div>
             <div class="row">
+			<div class="col-lg-2"></div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#complex_votants" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -235,6 +242,9 @@
                         <h4>“Les personnes en situation de handicap cognitif ou visuel auront des difficultés à voter”</h4>
                     </div>
                 </div>
+			</div>
+			<div class="row">
+			<div class="col-lg-2"></div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#hausse_cout" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -380,14 +390,16 @@
 
     <!-- About Outil -->
     <section id="Outil">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Les outils</h2>
+				<div class="col-lg-2"></div>
+                <div class="col-lg-10">
+                    <h2 class="section-heading">Comment promouvoir le BULLETIN UNIQUE ?</h2>
                     <p class="section-subheading text-muted">Liste outils que vous pouvez utiliser pour faire la promotion du rapport autour de vous. Si vous avez créé des ressources dans cet objectif, vous pouvez nous contacter pour qu'ils soient ajoutés sur cette page (bannières, vidéos, tracts...)</p>
                 </div>
             </div>
-            <div class="row text-center">
+            <div class="row">
+				<div class="col-lg-2"></div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
@@ -406,7 +418,10 @@
 						Twitter : <a href="https://twitter.com/Bulletin_Unique" alt="Lien vers le profil Twitter">Profil Twitter</a><br />
 						Facebook :  <a href="https://www.facebook.com/BulletinUnique/" alt="Lien vers notre page Facebook">Notre page Facebook</a></p>
                 </div>
-		<div class="col-md-4">
+			</div>
+			<div class="row">
+				<div class="col-lg-2"></div>
+					<div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-file-image-o fa-stack-1x fa-inverse"></i>
@@ -487,7 +502,7 @@
     </section>
 
     <footer>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4">
                     <span class="copyright small">Site créé par le <a href="https://www.partipirate.org/">Parti Pirate</a></span>
@@ -661,32 +676,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="transp_vote" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-							<!-- Project Details Go Here -->
-                            <h2>Transparence du vote</h2>
-                            <img class="img-responsive img-centered" src="img/portfolio/Urnes_Transp.jpg" alt="Titre unique européen">
-                            <p>L'amélioration du mode de scrutin au format papier permet d'éviter de tomber dans la fausse bonne idée du vote électronique.</p>
-			    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fermer</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Portfolio Modal 5 -->
     <div class="portfolio-modal modal fade" id="complex_votants" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
