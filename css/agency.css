@@ -273,6 +273,8 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+	padding-top: 7em;
+	padding-bottom: 7em;
 }
 
 header .intro-text {
@@ -292,6 +294,7 @@ header .intro-text .intro-lead-in {
 header h2.section-heading {
 	text-transform:none;
 	color: #19b6f4;
+	padding-bottom: 4em;
 }
 
 header .intro-text .intro-heading {
